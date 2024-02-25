@@ -2,7 +2,7 @@ using DG.Tweening;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
-public class ChangeColor: MonoBehaviour
+public class ColorChanger: MonoBehaviour
 {
     [SerializeField] private Color _color;
     [SerializeField] private SpriteRenderer _spriteRenderer;
